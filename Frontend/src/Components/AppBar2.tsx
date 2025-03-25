@@ -2,8 +2,18 @@ import { Logo } from "../ui/Logo";
 import { Buttons } from "../ui/Button";
 import { Plus, Share2 } from "lucide-react";
 import { LogoutIcon } from "../Icons/Logout";
+import { useNavigate } from "react-router-dom";
 
 export const AppBar2 = () => {
+
+  const navigate = useNavigate();
+
+  const openPage = () => {
+
+    navigate('/note/add-content');
+
+  }
+
   return (
     <>
       <section>
@@ -29,6 +39,7 @@ export const AppBar2 = () => {
                 startIcon={<Plus />}
                 text="Add content"
                 size="sm"
+                onClick={openPage}
               />
           </div>
         </div>
