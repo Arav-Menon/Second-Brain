@@ -1,9 +1,13 @@
 import { Card } from "../ui/Card";
 import { File, Share2, Trash2 } from "lucide-react";
+import { AppBar2 } from "./AppBar2";
 export const Note = () => {
   return (
     <>
+        <AppBar2/>  
       <section className="p-12">
+
+
         <div>
           <h1 className="text-3xl font-bold">All Notes</h1>
         </div>

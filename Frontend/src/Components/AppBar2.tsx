@@ -1,6 +1,7 @@
 import { Logo } from "../ui/Logo";
 import { Buttons } from "../ui/Button";
 import { Plus, Share2 } from "lucide-react";
+import { LogoutIcon } from "../Icons/Logout";
 
 export const AppBar2 = () => {
   return (
@@ -14,7 +15,9 @@ export const AppBar2 = () => {
           />
 
           <div className="flex gap-4 " >
-              
+
+            <LogoutIcon/>
+
             <Buttons
               variants="secondary"
               startIcon={<Share2 />}

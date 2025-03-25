@@ -15,7 +15,7 @@ const variantsStyles = {
 };
 
 const sizeStyles = {
-  sm: "px-4 py-2 rounded-[6%]  rounded-10 hover:bg-[#3e38a7]",
+  sm: "px-4 py-2 rounded-[6%] rounded-10 hover:bg-[#3e38a7]",
   md: "px-7 py-2 rounded-md hover:bg-[#3e38a7] ",
   lg: "p-6 rounded-lg ",
 };
