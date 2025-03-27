@@ -77,7 +77,7 @@ export const Signup = () => {
                     }
                   />
                   <input
-                    type="password"
+                    type="text"
                     placeholder="Password"
                     className="border-2 border-black p-2 rounded-md"
                     onChange={(e) =>
