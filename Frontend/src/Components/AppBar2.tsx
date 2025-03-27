@@ -14,6 +14,12 @@ export const AppBar2 = () => {
 
   }
 
+  const logOutHandle = () => {
+
+    localStorage.removeItem('token');
+    navigate('/');
+  }
+
   return (
     <>
       <section>
@@ -26,7 +32,7 @@ export const AppBar2 = () => {
 
           <div className="flex gap-4 " >
 
-            <LogoutIcon/>
+            <button onClick={logOutHandle} ><LogoutIcon/></button>
 
             <Buttons
               variants="secondary"
